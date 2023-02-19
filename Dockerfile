@@ -4,4 +4,4 @@ COPY package.json ./
 RUN yarn install
 COPY . .
 EXPOSE 8080
-CMD ["yarn", "server.js"]
+CMD ["yarn", "server.ts"]
